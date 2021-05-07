@@ -33,8 +33,7 @@ gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'bulma-rails', '~> 0.9.1'
 #Simple form
 gem 'simple_form', '~> 5.1'
-#implements a fast, single-threaded engine for arbitrary network communications
-gem 'eventmachine', '~> 1.2', '>= 1.2.7'
+
 
 
 group :development, :test do
@@ -54,7 +53,7 @@ group :development do
   #Command line tool to easily handle events on file system modifications
   gem 'guard', '~> 2.16', '>= 2.16.2'
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 end
 
 group :test do

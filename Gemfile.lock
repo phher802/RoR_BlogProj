@@ -246,7 +246,6 @@ DEPENDENCIES
   bulma-rails (~> 0.9.1)
   byebug
   capybara (>= 3.26)
-  eventmachine (~> 1.2, >= 1.2.7)
   guard (~> 2.16, >= 2.16.2)
   guard-livereload (~> 2.5, >= 2.5.2)
   jbuilder (~> 2.7)
