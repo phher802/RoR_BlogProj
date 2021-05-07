@@ -33,6 +33,8 @@ gem 'better_errors', '~> 2.9', '>= 2.9.1'
 gem 'bulma-rails', '~> 0.9.1'
 #Simple form
 gem 'simple_form', '~> 5.1'
+#implements a fast, single-threaded engine for arbitrary network communications
+gem 'eventmachine', '~> 1.2', '>= 1.2.7'
 
 
 group :development, :test do
