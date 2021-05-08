@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
-
+	#gets all the posts/Loops through all posts in descending order
 	def index
+		@posts = Post.all.order("created_at DESC")
 	end
 
 	#call post method and call a new post
