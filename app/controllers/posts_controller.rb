@@ -23,6 +23,21 @@ class PostsController < ApplicationController
 		@post = Post.find(params[:id])
 	end
 
+	def update
+		@post = Post.find(params[:id])
+		#server-side check
+		if @post.update(post_params)
+			redirect_to @post
+		else
+			render 'edit'
+
+	end
+
+	def edit
+		@post = Post.find(params[:id])
+	end
+
+
 
 	private
 	#requiring params/a secruity feature of rails
