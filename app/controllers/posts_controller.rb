@@ -30,7 +30,7 @@ class PostsController < ApplicationController
 			redirect_to @post
 		else
 			render 'edit'
-
+		end
 	end
 
 	def edit
